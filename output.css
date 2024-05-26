@@ -2809,13 +2809,13 @@ video {
 
 @media screen and (max-width:991px){
   .h-screen{
-    height: 50vh !important;
+    height: 40vh !important;
   }
 }
 
 @media screen and (max-width:767px){
   .h-screen{
-    height: 80vh !important;
+    height: 100vh !important;
   }
 }
 
@@ -3021,6 +3021,11 @@ video {
     padding-right: 0px;
   }
 
+  .md\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
   .md\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -3109,6 +3114,11 @@ video {
   .lg\:px-0{
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .lg\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .lg\:text-2xl{

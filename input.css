@@ -58,12 +58,12 @@
 }
 @media screen and (max-width:991px){
     .h-screen{
-        height: 50vh !important;
+        height: 40vh !important;
     }
 }
 @media screen and (max-width:767px){
     .h-screen{
-        height: 80vh !important;
+        height: 100vh !important;
     }
 }
 @media screen and (max-width:575px){
