@@ -707,6 +707,14 @@ video {
   border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.cursor-grab{
+  cursor: grab;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -1085,6 +1093,10 @@ video {
 .hover\:text-mainColor:hover{
   --tw-text-opacity: 1;
   color: rgb(210 154 90 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover{
+  text-decoration-line: underline;
 }
 
 .active\:text-mainColor:active{
