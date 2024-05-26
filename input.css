@@ -14,7 +14,7 @@
 }
 .ProductSwiper .swiper-button-next{
     position: absolute;
-    background: url(../src/assets/left_double.png)no-repeat center;
+    background: url(./assets/left_double.png)no-repeat center;
     background-size: contain;
     height: 70px;
     width: 70px;
@@ -26,7 +26,7 @@
 } 
 .ProductSwiper .swiper-button-prev{
     position: absolute;
-    background: url(../src/assets/right_double.png)no-repeat center;
+    background: url(./assets/right_double.png)no-repeat center;
     background-size: contain;
     height: 70px;
     width: 70px;
