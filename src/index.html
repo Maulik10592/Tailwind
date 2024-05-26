@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="relative text-base md:text-base lg:text-lg font-normal font-fontPoppins bg-textColor text-textColor">
+    <header class="relative">
+        <nav class="navbar bg-gredientBg border-r-4 border-mainColor absolute w-20 h-min md:h-min lg:h-screen z-10 border-y-mainColor border-spacing-3 flex flex-col justify-normal items-center">
+            <button class="btnMenu p-2 text-lg md:text-xl lg:text-2xl outline-none">
+                <i class="fa-bars fa-solid text-white"></i>
+            </button>
+            <a href="#home" id="brand" class="w-full h-full flex justify-center items-center">
+                <img class="object-cover max-h-full max-w-16" src="./assets/logo.png" alt="logo" />
+            </a>
+            <div class="menuBox w-full h-full flex flex-col justify-between items-start hidden">
+                <button class="btnClose p-2 ml-5 text-lg md:text-xl lg:text-2xl outline-none">
+                    <i class="fa-solid fa-xmark text-white"></i>
+                </button>
+                <a href="#home" id="logo" class="w-full md:w-11/12 lg:w-4/5 block py-3 text-left">
+                    <img class="w-full h-full" src="./assets/horizontalLogo.png" alt="logo" />
+                </a>
+                <ul class="py-2 px-5 w-full">
+                    <li>
+                        <a href="#home" class="mb-5 block text-xl text-white active:text-mainColor hover:text-mainColor">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#products" class="mb-5 block text-xl text-white hover:text-mainColor">PRODUCTS</a>
+                    </li>
+                    <li>
+                        <a href="#online" class="mb-5 block text-xl text-white hover:text-mainColor">MEET CHEF MATT</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-5 block text-xl text-white hover:text-mainColor">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="mb-5 block text-xl text-white hover:text-mainColor">CONTACT WITH US</a>
+                    </li>
+                </ul>
+                <div class="relative w-full text-center">
+                    <p class="block text-base text-white">TEXT SUPPORT 24/7 <a class="text-mainColor ml-2" href="tel:070-7782-9137">070-7782-9137</a></p>
+                    <span class="w-full h-2 block m-auto border-b-2 my-2 border-white text-white"></span>
+                    <div class="flex justify-evenly items-center">
+                        <a href="#" id="cart" class="text-xl text-white flex justify-between items-center"><img class="h-full w-full mr-2" src="./assets/Bag.png" alt="cart" /> CART</a>
+                        <a href="#" id="wishlist" class="text-xl text-white flex justify-between items-center"><img class="h-full w-full mr-2" src="./assets/Heart.png" alt="wishlist" /> WISHLIST</a>
+                    </div> 
+                </div>   
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="homeSection h-full md:h-full lg:h-screen relative">
+        <div class="swiper homeSwiper h-full w-full">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide flex justify-center items-center text-center text-base md:text-base lg:text-lg">
+                    <img class="block h-full w-full" src="./assets/slide.png" alt="slider" />
+                    <div class="absolute z-10 bottom-10 md:bottom-20 lg:bottom-20">
+                        <button class="px-10 py-2 text-lg md:text-xl lg:text-2xl border-2 border-white text-white hover:bg-white hover:border-mainColor hover:text-mainColor duration-300">Meet Chef Matt</button>
+                    </div>
+                </div>
+                <div class="swiper-slide flex justify-center items-center text-center text-base md:text-base lg:text-lg">
+                    <img class="block h-full w-full" src="./assets/slide.png" alt="slider" />
+                    <div class="absolute z-10 bottom-10 md:bottom-20 lg:bottom-20">
+                        <button class="px-10 py-2 text-lg md:text-xl lg:text-2xl border-2 border-white text-white hover:bg-white hover:border-mainColor hover:text-mainColor duration-300">Meet Chef Thomas</button>
+                    </div>
+                </div>
+                <div class="swiper-slide flex justify-center items-center text-center text-base md:text-base lg:text-lg">
+                    <img class="block h-full w-full" src="./assets/slide.png" alt="slider" />
+                    <div class="absolute z-10 bottom-10 md:bottom-20 lg:bottom-20">
+                        <button class="px-10 py-2 text-lg md:text-xl lg:text-2xl border-2 border-white text-white hover:bg-white hover:border-mainColor hover:text-mainColor duration-300">Meet Chef Kevin</button>
+                    </div>
+                </div>
+                <div class="swiper-slide flex justify-center items-center text-center text-base md:text-base lg:text-lg">
+                    <img class="block h-full w-full" src="./assets/slide.png" alt="slider" />
+                    <div class="absolute z-10 bottom-10 md:bottom-20 lg:bottom-20">
+                        <button class="px-10 py-2 text-lg md:text-xl lg:text-2xl border-2 border-white text-white hover:bg-white hover:border-mainColor hover:text-mainColor duration-300">Meet Chef Peter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination border-grayColor"></div>
+        </div>
+    </section>
+
+    <section id="products" class="productSection relative w-full md:w-11/12 lg:w-11/12 ml-auto my-5">
+        <div class="block p-4 w-full md:w-4/6 lg:w-3/6 mt-12 mb-4">
+            <span class="h-full p-32 w-full bg-leafBg bg-no-repeat bg-left-top bg-contain"></span>
+            <h1 class="text-2xl md:text-3xl lg:text-3xl z-10 text-mainColor border-b-4 py-2 mt-4 mb-6 border-mainColor">CHEF MATT PRODUCTS</h1>
+            <p class="text-base md:text-base lg:text-lg z-10 text-white">Shop Gourmet Chef Quality products from the Chef Matt brand. 
+                Chef it yourself and Thank us later.</p>
+        </div>
+        <div class="swiper ProductSwiper h-full w-full p-10">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide flex flex-col justify-center items-center text-center">
+                    <img class="block h-full w-full" src="./assets/ProductSlide1.png" alt="slider" />
+                    <h5 class="text-base md:text-base lg:text-lg text-mainColor uppercase">CINNAMON HONEY</h5>
+                    <p class="text-white text-xs"><span class="line-through">$12.00</span> $9.00</p>
+                </div>
+                <div class="swiper-slide flex flex-col justify-center items-center text-center">
+                    <img class="block h-full w-full" src="./assets/ProductSlide2.png" alt="slider" />
+                    <h5 class="text-base md:text-base lg:text-lg text-mainColor uppercase">COCONUT OIL</h5>
+                    <p class="text-white text-xs"><span class="line-through">$20.00</span> $15.00</p>
+                </div>
+                <div class="swiper-slide flex flex-col justify-center items-center text-center">
+                    <img class="block h-full w-full" src="./assets/ProductSlide3.png" alt="slider" />
+                    <h5 class="text-base md:text-base lg:text-lg text-mainColor uppercase">MANGO HONEY</h5>
+                    <p class="text-white text-xs"><span class="line-through">$9.00</span>$6.00</p>
+                </div>
+                <div class="swiper-slide flex flex-col justify-center items-center text-center">
+                    <img class="block h-full w-full" src="./assets/ProductSlide4.png" alt="slider" />
+                    <h5 class="text-base md:text-base lg:text-lg text-mainColor uppercase">HONEY HABANERO</h5>
+                    <p class="text-white text-xs"><span class="line-through">$12.00</span> $9.00</p>
+                </div>
+                <div class="swiper-slide flex flex-col justify-center items-center text-center">
+                    <img class="block h-full w-full" src="./assets/ProductSlide1.png" alt="slider" />
+                    <h5 class="text-base md:text-base lg:text-lg text-mainColor uppercase">CINNAMON HONEY</h5>
+                    <p class="text-white text-xs"><span class="line-through">$12.00</span> $9.00</p>
+                </div>
+                <div class="swiper-slide flex flex-col justify-center items-center text-center">
+                    <img class="block h-full w-full" src="./assets/ProductSlide2.png" alt="slider" />
+                    <h5 class="text-base md:text-base lg:text-lg text-mainColor uppercase">COCONUT OIL</h5>
+                    <p class="text-white text-xs"><span class="line-through">$20.00</span> $15.00</p>
+                </div>
+                <div class="swiper-slide flex flex-col justify-center items-center text-center">
+                    <img class="block h-full w-full" src="./assets/ProductSlide3.png" alt="slider" />
+                    <h5 class="text-base md:text-base lg:text-lg text-mainColor uppercase">MANGO HONEY</h5>
+                    <p class="text-white text-xs"><span class="line-through">$9.00</span>$6.00</p>
+                </div>
+                <div class="swiper-slide flex flex-col justify-center items-center text-center">
+                    <img class="block h-full w-full" src="./assets/ProductSlide4.png" alt="slider" />
+                    <h5 class="text-base md:text-base lg:text-lg text-mainColor uppercase">HONEY HABANERO</h5>
+                    <p class="text-white text-xs"><span class="line-through">$12.00</span> $9.00</p>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section id="online" class="onlineSection relative w-full md:w-11/12 lg:w-11/12 ml-auto py-10 my-5">
+        <div class="swiper onlineSwiper h-full w-full">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide max-h-fit flex justify-center items-center text-center text-base md:text-base lg:text-lg">
+                    <img class="block h-screen md:h-screen lg:h-full w-full" src="./assets/OnlineBg.png" alt="slider" />
+                    <div class="absolute z-10 w-full md:w-3/6 lg:w-3/6 m-auto">
+                        <h2 class="text-2xl md:text-3xl lg:text-3xl text-textColor">ONLINE ONLY</h2>
+                        <span class="w-20 h-2 block m-auto border-b-4 my-5 border-textColor text-textColor"></span>
+                        <p class="text-textColor px-5 font-normal text-lg md:text-xl lg:text-2xl">GET 20% OFF YOUR ORDER OF $50 OR MORE Use code <b class="font-bold">“Chef20”</b></p>
+                        <button class="px-10 py-2 my-5 text-lg md:text-xl lg:text-2xl border-2 border-textColor text-textColor hover:bg-textColor hover:border-mainColor hover:text-mainColor duration-300">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide flex justify-center items-center text-center text-base md:text-base lg:text-lg">
+                    <img class="block h-screen md:h-screen lg:h-full w-full" src="./assets/OnlineBg.png" alt="slider" />
+                    <div class="absolute z-10 w-full md:w-3/6 lg:w-3/6 m-auto">
+                        <h2 class="text-2xl md:text-3xl lg:text-3xl text-textColor">ONLINE ONLY</h2>
+                        <span class="w-20 h-2 block m-auto border-b-4 my-5 border-textColor text-textColor"></span>
+                        <p class="text-textColor px-5 font-normal text-lg md:text-xl lg:text-2xl">GET 10% OFF YOUR ORDER OF $40 OR MORE Use code <b class="font-bold">“Chef10”</b></p>
+                        <button class="px-10 py-2 my-5 text-lg md:text-xl lg:text-2xl border-2 border-textColor text-textColor hover:bg-textColor hover:border-mainColor hover:text-mainColor duration-300">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide flex justify-center items-center text-center text-base md:text-base lg:text-lg">
+                    <img class="block h-screen md:h-screen lg:h-full w-full" src="./assets/OnlineBg.png" alt="slider" />
+                    <div class="absolute z-10 w-full md:w-3/6 lg:w-3/6 m-auto">
+                        <h2 class="text-2xl md:text-3xl lg:text-3xl text-textColor">ONLINE ONLY</h2>
+                        <span class="w-20 h-2 block m-auto border-b-4 my-5 border-textColor text-textColor"></span>
+                        <p class="text-textColor px-5 font-normal text-lg md:text-xl lg:text-2xl">GET 25% OFF YOUR ORDER OF $60 OR MORE Use code <b class="font-bold">“Chef25”</b></p>
+                        <button class="px-10 py-2 my-5 text-lg md:text-xl lg:text-2xl border-2 border-textColor text-textColor hover:bg-textColor hover:border-mainColor hover:text-mainColor duration-300">Shop Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide flex justify-center items-center text-center text-base md:text-base lg:text-lg">
+                    <img class="block h-screen md:h-screen lg:h-full w-full" src="./assets/OnlineBg.png" alt="slider" />
+                    <div class="absolute z-10 w-full md:w-3/6 lg:w-3/6 m-auto">
+                        <h2 class="text-2xl md:text-3xl lg:text-3xl text-textColor">ONLINE ONLY</h2>
+                        <span class="w-20 h-2 block m-auto border-b-4 my-5 border-textColor text-textColor"></span>
+                        <p class="text-textColor px-5 font-normal text-lg md:text-xl lg:text-2xl">GET 15% OFF YOUR ORDER OF $30 OR MORE Use code <b class="font-bold">“Chef15”</b></p>
+                        <button class="px-10 py-2 my-5 text-lg md:text-xl lg:text-2xl border-2 border-textColor text-textColor hover:bg-textColor hover:border-mainColor hover:text-mainColor duration-300">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="signupSection relative p-5 md:p-10 lg:p-10 my-5 flex justify-start items-center h-full ml-auto bg-signUpBg bg-no-repeat bg-center bg-cover w-full md:w-11/12 lg:w-11/12">
+        <div class="relative w-full sm:w-full md:w-4/5 lg:w-4/5">
+            <h2 class="w-fit text-white text-2xl md:text-3xl lg:text-3xl border-b-4 py-2 mt-4 mb-6 border-white">SIGN UP SPECIAL PROMOTIONS</h2>
+            <p class="text-white text-base md:text-base lg:text-lg">Get exclusive deals you won’t find anywhere else straight to your inbox!</p>
+            <div class="w-full md:w-4/6 lg:w-4/6 flex justify-between items-center flex-col sm:flex-row md:flex-row lg:flex-row mt-5 sm:mt-0 md:mt-0 lg:mt-0 gap-0 sm:gap-5 md:gap-5 lg:gap-5">
+                <input id="email" placeholder="Enter email address" type="text" class="bg-transparent h-12 w-full px-4 border border-white text-white outline-none transition-all duration-200 ease-in-out" />
+                <button class="px-10 py-2 my-5 text-lg md:text-xl lg:text-2xl h-12 border border-mainColor text-white bg-mainColor hover:bg-transparent hover:text-mainColor duration-300">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer relative w-full md:w-11/12 lg:w-11/12 ml-auto py-5">
+        <div class="flex flex-col justify-center md:justify-evenly lg:justify-evenly items-center">
+            <div class="relative w-full sm:w-3/6 md:w-full lg:w-full flex flex-col md:flex-row lg:flex-row justify-center md:justify-evenly lg:justify-evenly items-start md:items-center lg:items-center mb-6 px-5 md:px-0 lg:px-0">
+                <div class="w-full md:w-full lg:w-1/3 flex justify-start md:justify-center lg:justify-center items-start mb-5 md:mb-0 lg:mb-0">
+                    <img class="w-8 mr-4" src="./assets/Trash.png" alt="Trash" />
+                    <div class="relative">
+                        <h5 class="text-mainColor text-lg md:text-xl lg:text-2xl">FREE SHIPPING WORLDWIDE</h5>
+                        <p class="text-base md:text-base lg:text-lg text-white mt-4">Guaranteed Delivery</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-full lg:w-1/3 flex justify-start md:justify-center lg:justify-center items-start mb-5 md:mb-0 lg:mb-0">
+                    <img class="w-8 mr-4" src="./assets/Audio.png" alt="Audio" /> 
+                    <div class="relative">
+                        <h5 class="text-mainColor text-lg md:text-xl lg:text-2xl">24/7 CUSTOMER SERVICE</h5>
+                        <p class="text-base md:text-base lg:text-lg text-white mt-4">Text Us 24/7 at 070-7782-9137</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-full lg:w-1/3 flex justify-start md:justify-center lg:justify-center items-start mb-5 md:mb-0 lg:mb-0">
+                    <img class="w-8 mr-4" src="./assets/Tick.png" alt="Tick" /> 
+                    <div class="relative">
+                        <h5 class="text-mainColor text-lg md:text-xl lg:text-2xl">QUALITY GUARANTEE!</h5>
+                        <p class="text-base md:text-base lg:text-lg text-white mt-4">Send Within 30 Days</p>
+                    </div>
+                </div>
+            </div>
+            <span class="w-full h-2 block m-auto border-b-4 my-5 border-mainColor text-mainColor"></span>                        
+            <a href="#home" class="logo py-5 text-center">
+                <img class="w-2/3 md:w-4/5 lg:w-4/5 m-auto h-full" src="./assets/horizontalLogo.png" alt="logo" />
+            </a>
+        </div>
+    </footer>
+  
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
