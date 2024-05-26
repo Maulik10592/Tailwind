@@ -63,7 +63,7 @@
 }
 @media screen and (max-width:767px){
     .h-screen{
-        height: 100vh !important;
+        height: 80vh !important;
     }
 }
 @media screen and (max-width:575px){
